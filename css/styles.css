@@ -2,23 +2,68 @@ body{
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
+    background-color: #8EC3B0;
    
 }
 h1{
-    margin-top: 0;
+    margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
+    font-size: 562.2%;
+    color: #11999E;
+
 }
 h2{
     font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #11999E;
+    font-weight: normal;
+}
+H3{
+    color: #11999E;
+}
+hr{
+    border: dotted 8EC3B0 6PX;
+    border-bottom: none;
+    width: 4%;
+    margin-top: 100px auto;
+}
+.contact-message{
+   
+    margin: 40px auto 60px;
 }
 
 .top-container{
     background-color: #9ED5C5;
     position: relative;
     padding-top: 100px;
+    padding: 50px 0 30px;
     
 }
 .middle-container{
+
+    background-color: #BCEAD5;
+    padding-top: 20px;
+}
+.bottom-container{
+
+    background-color: #8EC3B0;
+    padding: 50px 0 20px;
+    
+}
+.contact-me{
+    padding-bottom: 50px;
+}
+a{
+    color: #439A97;
+    margin: 10px 20px;
+}
+a:hover{
+    color: #CBEDD5;
+}
+.copyright{
+    color: #CBEDD5;
+    font-size: 0.75rem;
+    padding: 20px 0;
 }
    
 
@@ -33,4 +78,85 @@ h2{
     top:50px;   
 }
 
-
+a {
+    text-decoration: none;
+    color: #000;
+  }
+  .site-header { 
+    border-bottom: 1px solid #ccc;
+    padding: .5em 1em;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .site-identity h1 {
+    font-size: 1.5em;
+    margin: .6em 0;
+    display: inline-block;
+  }
+  
+  
+  .site-navigation ul, 
+  .site-navigation li {
+    margin: 0; 
+    padding: 0;
+  }
+  
+  .site-navigation li {
+    display: inline-block;
+    margin: 1.4em 1em 1em 1em;
+  }
+  .about{
+    width:50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+     
+  }
+  .image{
+    float: left;
+    margin-right: 30px;
+  }
+  .m-container{
+    background-color: #BCEAD5;
+  }
+.a2
+{
+    width:45%;
+}
+.education{
+    width:50%;
+    margin: 100px auto 100px auto;
+}
+.btn {
+    margin: 40px auto 100px;
+    background: #338c86;
+    background-image: -webkit-linear-gradient(top, #338c86, #0cc7bb);
+    background-image: -moz-linear-gradient(top, #338c86, #0cc7bb);
+    background-image: -ms-linear-gradient(top, #338c86, #0cc7bb);
+    background-image: -o-linear-gradient(top, #338c86, #0cc7bb);
+    background-image: linear-gradient(to bottom, #338c86, #0cc7bb);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+.education-main{
+    background-color: #BCEAD5;
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
